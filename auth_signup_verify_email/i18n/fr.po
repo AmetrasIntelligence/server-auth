@@ -1,22 +1,20 @@
-# Translation of Odoo Server.
-# This file contains the translation of the following modules:
-# * auth_signup_verify_email
-#
-# Translators:
-# Alexandre Papin <papin.alexandre@me.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.0\n"
+"Project-Id-Version: ametras-xsolutions\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-18 02:19+0000\n"
-"PO-Revision-Date: 2017-03-18 02:19+0000\n"
-"Last-Translator: Alexandre Papin <papin.alexandre@me.com>, 2017\n"
-"Language-Team: French (https://www.transifex.com/oca/teams/23907/fr/)\n"
-"Language: fr\n"
+"Last-Translator: \n"
+"Language-Team: French\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: ametras-xsolutions\n"
+"X-Crowdin-Project-ID: 530964\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /[AmetrasIntelligence.server-auth] 13.0/auth_signup_verify_email/i18n/auth_signup_verify_email.pot\n"
+"X-Crowdin-File-ID: 5332\n"
+"Language: fr_FR\n"
+"PO-Revision-Date: 2022-08-06 21:59\n"
 
 #. module: auth_signup_verify_email
 #: code:addons/auth_signup_verify_email/controllers/main.py:0
@@ -34,11 +32,11 @@ msgstr "Un email vous à été envoyé pour activer votre compte."
 #: code:addons/auth_signup_verify_email/controllers/main.py:0
 #, python-format
 msgid "Something went wrong, please try again later or contact us."
-msgstr ""
-"Une erreur est survenue, veuillez réessayer plus tard ou contactez nous."
+msgstr "Une erreur est survenue, veuillez réessayer plus tard ou contactez nous."
 
 #. module: auth_signup_verify_email
 #: code:addons/auth_signup_verify_email/controllers/main.py:0
 #, python-format
 msgid "That does not seem to be an email address."
 msgstr "Veuillez fournir une adresse email valide."
+

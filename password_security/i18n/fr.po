@@ -1,34 +1,29 @@
-# Translation of Odoo Server.
-# This file contains the translation of the following modules:
-# * password_security
-#
-# Translators:
-# OCA Transbot <transbot@odoo-community.org>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.0\n"
+"Project-Id-Version: ametras-xsolutions\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-22 01:12+0000\n"
-"PO-Revision-Date: 2021-07-12 10:48+0000\n"
-"Last-Translator: Logan Gônet <logan.gonet@horanet.com>\n"
-"Language-Team: French (https://www.transifex.com/oca/teams/23907/fr/)\n"
-"Language: fr\n"
+"Last-Translator: \n"
+"Language-Team: French\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.3.2\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: ametras-xsolutions\n"
+"X-Crowdin-Project-ID: 530964\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /[AmetrasIntelligence.server-auth] 13.0/password_security/i18n/password_security.pot\n"
+"X-Crowdin-File-ID: 5338\n"
+"Language: fr_FR\n"
+"PO-Revision-Date: 2022-08-06 21:59\n"
 
 #. module: password_security
 #: model:ir.model.fields,help:password_security.field_res_company__password_minimum
 #: model:ir.model.fields,help:password_security.field_res_config_settings__password_minimum
 msgid "Amount of hours until a user may change password again"
-msgstr ""
-"Nombre d'heures pendant lesquelles un utilisateur ne peut pas changer à "
-"nouveau son mot de passe"
+msgstr "Nombre d'heures pendant lesquelles un utilisateur ne peut pas changer à nouveau son mot de passe"
 
 #. module: password_security
-#: code:addons/password_security/models/res_users.py:200
+#: code:addons/password_security/models/res_users.py:0
 #, python-format
 msgid "Cannot use the most recent %d passwords"
 msgstr "Interdire l'utilisation des %d mots de passe les plus récents"
@@ -42,12 +37,12 @@ msgstr "Longueur minimale"
 #. module: password_security
 #: model:ir.model,name:password_security.model_res_company
 msgid "Companies"
-msgstr "Sociétés"
+msgstr "Entreprises"
 
 #. module: password_security
 #: model:ir.model,name:password_security.model_res_config_settings
 msgid "Config Settings"
-msgstr "Paramètres de config"
+msgstr ""
 
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_users_pass_history__create_uid
@@ -62,13 +57,13 @@ msgstr "Créé le"
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_users_pass_history__date
 msgid "Date"
-msgstr "Date"
+msgstr ""
 
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_company__password_expiration
 #: model:ir.model.fields,field_description:password_security.field_res_config_settings__password_expiration
 msgid "Days"
-msgstr "Jours"
+msgstr ""
 
 #. module: password_security
 #: model_terms:ir.ui.view,arch_db:password_security.res_config_settings_view_form
@@ -78,12 +73,8 @@ msgstr "Interdire la réutilisation de"
 #. module: password_security
 #: model:ir.model.fields,help:password_security.field_res_company__password_history
 #: model:ir.model.fields,help:password_security.field_res_config_settings__password_history
-msgid ""
-"Disallow reuse of this many previous passwords - use negative number for "
-"infinite, or 0 to disable"
-msgstr ""
-"Empêche la réutilisation de plusieurs mots de passe précédents - Utilisez un "
-"nombre négatif pour l'infini, ou 0 pour désactiver cette fonctionnalité"
+msgid "Disallow reuse of this many previous passwords - use negative number for infinite, or 0 to disable"
+msgstr "Empêche la réutilisation de plusieurs mots de passe précédents - Utilisez un nombre négatif pour l'infini, ou 0 pour désactiver cette fonctionnalité"
 
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_users_pass_history__display_name
@@ -99,13 +90,13 @@ msgstr "Mot de passe chiffré"
 #: model:ir.model.fields,field_description:password_security.field_res_company__password_estimate
 #: model:ir.model.fields,field_description:password_security.field_res_config_settings__password_estimate
 msgid "Estimation"
-msgstr "Estimation"
+msgstr ""
 
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_company__password_history
 #: model:ir.model.fields,field_description:password_security.field_res_config_settings__password_history
 msgid "History"
-msgstr "Anciens mots de passe"
+msgstr ""
 
 #. module: password_security
 #: model:ir.model.fields,help:password_security.field_res_company__password_expiration
@@ -116,7 +107,7 @@ msgstr "Nombre de jours avant l'expiration du mot de passe"
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_users_pass_history__id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_users_pass_history____last_update
@@ -126,12 +117,12 @@ msgstr "Dernière modification le"
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_users_pass_history__write_uid
 msgid "Last Updated by"
-msgstr "Dernière modification par"
+msgstr "Dernière mise à jour par"
 
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_users_pass_history__write_date
 msgid "Last Updated on"
-msgstr "Dernière modification le"
+msgstr "Dernière mise à jour le"
 
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_users__password_write_date
@@ -183,7 +174,7 @@ msgid "Minimum number of uppercase characters"
 msgstr "Nombre minimum de caractères majuscules"
 
 #. module: password_security
-#: code:addons/password_security/models/res_users.py:107
+#: code:addons/password_security/models/res_users.py:0
 #, python-format
 msgid "Must contain the following:"
 msgstr "Doit contenir :"
@@ -210,14 +201,10 @@ msgid "Password expires in"
 msgstr "Le mot de passe expire dans"
 
 #. module: password_security
-#: code:addons/password_security/models/res_users.py:177
+#: code:addons/password_security/models/res_users.py:0
 #, python-format
-msgid ""
-"Passwords can only be reset every %d hour(s). Please contact an "
-"administrator for assistance."
-msgstr ""
-"Les mots de passe peuvent seulement être changé toutes les %d heure(s). "
-"Veuillez contacter votre administrateur pour obtenir de l'aide."
+msgid "Passwords can only be reset every %d hour(s). Please contact an administrator for assistance."
+msgstr "Les mots de passe peuvent seulement être changé toutes les %d heure(s). Veuillez contacter votre administrateur pour obtenir de l'aide."
 
 #. module: password_security
 #: model:ir.model.fields,help:password_security.field_res_company__password_lower
@@ -261,7 +248,7 @@ msgid "Special"
 msgstr "Des caractères spéciaux"
 
 #. module: password_security
-#: code:addons/password_security/models/res_company.py:62
+#: code:addons/password_security/models/res_company.py:0
 #, python-format
 msgid "The estimation must be between 0 and 4."
 msgstr "L'estimation doit être comprise entre 0 et 4."
@@ -280,7 +267,7 @@ msgstr "Utilisez un nombre négatif pour l'infini, ou 0 pour désactiver"
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_users_pass_history__user_id
 msgid "User"
-msgstr "Utilisateur"
+msgstr ""
 
 #. module: password_security
 #: model_terms:ir.ui.view,arch_db:password_security.res_config_settings_view_form
@@ -294,35 +281,35 @@ msgstr "Utilisateurs"
 
 #. module: password_security
 #. openerp-web
-#: code:addons/password_security/static/src/js/password_gauge.js:40
+#: code:addons/password_security/static/src/js/password_gauge.js:0
 #, python-format
 msgid "at least %d characters"
 msgstr "au moins %d caractères"
 
 #. module: password_security
 #. openerp-web
-#: code:addons/password_security/static/src/js/password_gauge.js:49
+#: code:addons/password_security/static/src/js/password_gauge.js:0
 #, python-format
 msgid "at least %d lower case characters"
 msgstr "au moins %d caractères minuscules"
 
 #. module: password_security
 #. openerp-web
-#: code:addons/password_security/static/src/js/password_gauge.js:67
+#: code:addons/password_security/static/src/js/password_gauge.js:0
 #, python-format
 msgid "at least %d numeric characters"
 msgstr "au moins %d caractères numériques"
 
 #. module: password_security
 #. openerp-web
-#: code:addons/password_security/static/src/js/password_gauge.js:76
+#: code:addons/password_security/static/src/js/password_gauge.js:0
 #, python-format
 msgid "at least %d special characters"
 msgstr "au moins %d caractères spéciaux"
 
 #. module: password_security
 #. openerp-web
-#: code:addons/password_security/static/src/js/password_gauge.js:58
+#: code:addons/password_security/static/src/js/password_gauge.js:0
 #, python-format
 msgid "at least %d upper case characters"
 msgstr "au moins %d caractères majuscules"
@@ -342,26 +329,3 @@ msgstr "heures."
 msgid "previous passwords."
 msgstr "mots de passe précédents."
 
-#~ msgid "Extra"
-#~ msgstr "Options supplémentaires"
-
-#~ msgid "Required Characters"
-#~ msgstr "Doit contenir"
-
-#~ msgid "Timings"
-#~ msgstr "Durées"
-
-#~ msgid "Lowercase letter"
-#~ msgstr "Lettre minuscule"
-
-#~ msgid "Numeric digit"
-#~ msgstr "Nombre"
-
-#~ msgid "Password must be %d characters or more."
-#~ msgstr "Le mot de passe doit contenir %d caractères ou plus."
-
-#~ msgid "Special character"
-#~ msgstr "Caractère spécial"
-
-#~ msgid "Uppercase letter"
-#~ msgstr "Lettre majuscule"

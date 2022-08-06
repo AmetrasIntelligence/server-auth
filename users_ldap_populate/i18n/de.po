@@ -1,22 +1,20 @@
-# Translation of Odoo Server.
-# This file contains the translation of the following modules:
-# * users_ldap_populate
-#
-# Translators:
-# OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.0\n"
+"Project-Id-Version: ametras-xsolutions\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-26 20:39+0000\n"
-"PO-Revision-Date: 2017-12-01 02:11+0000\n"
-"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2017\n"
-"Language-Team: German (https://www.transifex.com/oca/teams/23907/de/)\n"
-"Language: de\n"
+"Last-Translator: \n"
+"Language-Team: German\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ametras-xsolutions\n"
+"X-Crowdin-Project-ID: 530964\n"
+"X-Crowdin-Language: de\n"
+"X-Crowdin-File: /[AmetrasIntelligence.server-auth] 13.0/users_ldap_populate/i18n/users_ldap_populate.pot\n"
+"X-Crowdin-File-ID: 5344\n"
+"Language: de_DE\n"
+"PO-Revision-Date: 2022-08-06 21:59\n"
 
 #. module: users_ldap_populate
 #: model_terms:ir.ui.view,arch_db:users_ldap_populate.populate_wizard_view
@@ -25,9 +23,8 @@ msgstr "Füge 'Einpflegen'-Button zur ldap-Sicht hinzu"
 
 #. module: users_ldap_populate
 #: model:ir.model,name:users_ldap_populate.model_res_company_ldap
-#, fuzzy
 msgid "Company LDAP configuration"
-msgstr "LDAP-Konfiguration"
+msgstr ""
 
 #. module: users_ldap_populate
 #: model:ir.model.fields,field_description:users_ldap_populate.field_res_company_ldap_populate_wizard__create_uid
@@ -37,7 +34,7 @@ msgstr "Erstellt von"
 #. module: users_ldap_populate
 #: model:ir.model.fields,field_description:users_ldap_populate.field_res_company_ldap_populate_wizard__create_date
 msgid "Created on"
-msgstr "Erstellt am:"
+msgstr "Erstellt am"
 
 #. module: users_ldap_populate
 #: model:ir.model.fields,field_description:users_ldap_populate.field_res_company_ldap__deactivate_unknown_users
@@ -85,13 +82,10 @@ msgid "Name"
 msgstr "Name"
 
 #. module: users_ldap_populate
-#: code:addons/users_ldap_populate/models/users_ldap.py:62
+#: code:addons/users_ldap_populate/models/users_ldap.py:0
 #, python-format
-msgid ""
-"No login attribute found: Could not extract login attribute from filter %s"
-msgstr ""
-"Kein Anmelde-Attribut gefunden: Konnte aus Filter %s kein Anmelde-Attribut "
-"extrahieren"
+msgid "No login attribute found: Could not extract login attribute from filter %s"
+msgstr "Kein Anmelde-Attribut gefunden: Konnte aus Filter %s kein Anmelde-Attribut extrahieren"
 
 #. module: users_ldap_populate
 #: model:ir.model.fields,field_description:users_ldap_populate.field_res_company_ldap_populate_wizard__users_created
@@ -106,7 +100,7 @@ msgstr ""
 #. module: users_ldap_populate
 #: model_terms:ir.ui.view,arch_db:users_ldap_populate.populate_wizard_view
 msgid "OK"
-msgstr "OK"
+msgstr ""
 
 #. module: users_ldap_populate
 #: model_terms:ir.ui.view,arch_db:users_ldap_populate.company_form_view
@@ -124,7 +118,7 @@ msgid "Populate users from LDAP"
 msgstr "Pflege Benutzer aus LDAP ein"
 
 #. module: users_ldap_populate
-#: code:addons/users_ldap_populate/models/users_ldap.py:89
+#: code:addons/users_ldap_populate/models/users_ldap.py:0
 #, python-format
 msgid "Unable to process user with login %s"
 msgstr ""
@@ -134,5 +128,3 @@ msgstr ""
 msgid "Users never to deactivate"
 msgstr ""
 
-#~ msgid "res.company.ldap"
-#~ msgstr "res.company.ldap"

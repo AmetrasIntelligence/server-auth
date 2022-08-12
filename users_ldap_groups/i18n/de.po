@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.server-auth] 13.0/users_ldap_groups/i18n/users_ldap_groups.pot\n"
 "X-Crowdin-File-ID: 5340\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 21:59\n"
+"PO-Revision-Date: 2022-08-12 14:45\n"
 
 #. module: users_ldap_groups
 #: model:ir.model,name:users_ldap_groups.model_res_company_ldap
@@ -151,5 +151,5 @@ msgstr "Benutzer"
 #. module: users_ldap_groups
 #: model:ir.model.fields,field_description:users_ldap_groups.field_res_company_ldap_group_mapping__value
 msgid "Value"
-msgstr ""
+msgstr "Wert"
 

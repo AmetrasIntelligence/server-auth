@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.server-auth] 13.0/auth_oauth_multi_token/i18n/auth_oauth_multi_token.pot\n"
 "X-Crowdin-File-ID: 5326\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 21:59\n"
+"PO-Revision-Date: 2022-08-16 14:20\n"
 
 #. module: auth_oauth_multi_token
 #: model_terms:ir.ui.view,arch_db:auth_oauth_multi_token.view_users_form
@@ -89,7 +89,7 @@ msgstr ""
 #. module: auth_oauth_multi_token
 #: model:ir.model.fields,field_description:auth_oauth_multi_token.field_auth_oauth_multi_token__user_id
 msgid "User"
-msgstr ""
+msgstr "Benutzer"
 
 #. module: auth_oauth_multi_token
 #: model:ir.model,name:auth_oauth_multi_token.model_res_users

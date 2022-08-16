@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.server-auth] 13.0/auth_api_key/i18n/auth_api_key.pot\n"
 "X-Crowdin-File-ID: 5320\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 21:59\n"
+"PO-Revision-Date: 2022-08-16 14:20\n"
 
 #. module: auth_api_key
 #: model:ir.model,name:auth_api_key.model_auth_api_key
@@ -118,7 +118,7 @@ msgstr ""
 #. module: auth_api_key
 #: model:ir.model.fields,field_description:auth_api_key.field_auth_api_key__user_id
 msgid "User"
-msgstr ""
+msgstr "Benutzer"
 
 #. module: auth_api_key
 #: code:addons/auth_api_key/models/auth_api_key.py:0

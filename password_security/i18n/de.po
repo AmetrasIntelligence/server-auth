@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.server-auth] 13.0/password_security/i18n/password_security.pot\n"
 "X-Crowdin-File-ID: 5338\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 21:59\n"
+"PO-Revision-Date: 2022-08-16 14:20\n"
 
 #. module: password_security
 #: model:ir.model.fields,help:password_security.field_res_company__password_minimum
@@ -267,7 +267,7 @@ msgstr ""
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_users_pass_history__user_id
 msgid "User"
-msgstr ""
+msgstr "Benutzer"
 
 #. module: password_security
 #: model_terms:ir.ui.view,arch_db:password_security.res_config_settings_view_form

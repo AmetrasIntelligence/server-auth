@@ -14,12 +14,12 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.server-auth] 13.0/auth_api_key/i18n/auth_api_key.pot\n"
 "X-Crowdin-File-ID: 5320\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-16 14:20\n"
+"PO-Revision-Date: 2022-08-18 11:00\n"
 
 #. module: auth_api_key
 #: model:ir.model,name:auth_api_key.model_auth_api_key
 msgid "API Key"
-msgstr ""
+msgstr "API-Schlüssel"
 
 #. module: auth_api_key
 #: model:ir.model.constraint,message:auth_api_key.constraint_auth_api_key_name_uniq
@@ -30,7 +30,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:auth_api_key.auth_api_key_act_window
 #: model:ir.ui.menu,name:auth_api_key.auth_api_key_menu
 msgid "Auth Api Key"
-msgstr ""
+msgstr "Auth Api Schlüssel"
 
 #. module: auth_api_key
 #: model:ir.model.fields,field_description:auth_api_key.field_auth_api_key__create_uid
